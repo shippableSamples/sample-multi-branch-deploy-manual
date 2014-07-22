@@ -58,3 +58,5 @@ this specific commit to the production environment.
 
 For more detailed documentation on Heroku deployment, please see Shippable's continuous
 deployment section: http://docs.shippable.com/en/latest/config.html#continuous-deployment
+
+This sample is built for Shippable, a docker based continuous integration and deployment platform.
