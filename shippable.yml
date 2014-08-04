@@ -28,4 +28,4 @@ after_success:
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
   - >
     [[ $BRANCH = 'production' ]] && REMOTE=production || REMOTE=staging
-  - git push -f $REMOTE master
+  - git push -f $REMOTE $BRANCH:master
